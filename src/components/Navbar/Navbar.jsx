@@ -8,9 +8,6 @@ const Navbar = ({logo, navList}) => {
         </li>  
     );
 
-    console.log(lista);
-    console.log(navList);
-
     return (
 
         <menu id='navbar'>

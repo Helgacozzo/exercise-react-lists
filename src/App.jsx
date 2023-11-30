@@ -1,4 +1,4 @@
-import './App.css'
+// import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Jumbotron from './components/Jumbotron/Jumbotron'
 
@@ -22,14 +22,13 @@ const App = () => {
 
     <>
       <Navbar
-        logo = {logoProps}
-        navList = {navListProps}
+        logo={logoProps}
+        navList={navListProps}
       />
 
       <Jumbotron
-        readMoreBtn = {true}
+        readMoreBtn={true}
       />
-
     </>
 
   )

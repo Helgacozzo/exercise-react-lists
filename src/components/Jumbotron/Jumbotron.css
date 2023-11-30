@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    background-color: rgb(255, 238, 0);
+    height: 100vh;
+}
+
+section{
+    display: grid;
+}

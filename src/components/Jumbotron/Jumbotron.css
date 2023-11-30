@@ -4,9 +4,8 @@ main {
     grid-template-rows: 1fr;
     grid-template-areas:
         'fig sec';
-    background-color: #ffd716;
     gap: 1rem;
-    padding-right: 1rem;
+    background-color: #ffd716;
 }
 
 main>section {
@@ -20,10 +19,6 @@ main>section {
 main>figure {
     display: grid;
     grid-area: fig;
-}
-
-figure>img {
-    height: 100%;
 }
 
 h1 {
